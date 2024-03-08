@@ -2,9 +2,9 @@
 	"name": "get-user-os",
 	"version": "1.0.0",
 	"description": "get-user-os is a lightweight, easy-to-use JavaScript library that provides a simple API to detect the operating system of a user. It's built with TypeScript and works seamlessly across different browsers.",
-	"main": "dist/src/index.js",
+	"main": "./dist/src/index.js",
 	"type": "module",
-	"types": "dist/index.d.ts",
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"build": "tsc && swc src -d dist --config-file .swcrc",
 		"publish": "npm publish",
@@ -31,5 +31,9 @@
 		"markdownlint": "0.33.0",
 		"typescript": "5.4.2"
 	},
-	"files": ["dist/**/*"]
+	"files": ["dist/**/*"],
+	"exports": {
+		".": "./dist/src/index.js",
+		"./types": "./dist/types"
+	}
 }
