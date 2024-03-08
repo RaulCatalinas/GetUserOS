@@ -1,0 +1,34 @@
+{
+	"name": "get-user-os",
+	"version": "1.0.0",
+	"description": "get-user-os is a lightweight, easy-to-use JavaScript library that provides a simple API to detect the operating system of a user. It's built with TypeScript and works seamlessly across different browsers.",
+	"main": "dist/src/index.js",
+	"type": "module",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc && swc src -d dist",
+		"publish": "npm publish",
+		"co": "sui-mono commit"
+	},
+	"keywords": [
+		"Operating System Detection",
+		"User Agent",
+		"Browser Detection",
+		"JavaScript Library",
+		"TypeScript",
+		"Cross-Browser Compatibility",
+		"Web Development",
+		"User Experience"
+	],
+	"author": {
+		"name": "Raul Catalinas Esteban",
+		"email": "raulcatalinas@gmail.com",
+		"url": "https://github.com/RaulCatalinas"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@swc/cli": "0.3.10",
+		"@swc/core": "1.4.5",
+		"typescript": "5.4.2"
+	}
+}
