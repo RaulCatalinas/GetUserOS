@@ -6,3 +6,4 @@ biome.json
 pnpm-lock.yaml
 tsconfig.json
 .swcrc
+.github
