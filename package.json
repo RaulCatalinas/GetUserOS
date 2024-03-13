@@ -1,48 +1,58 @@
 {
-	"name": "get-user-os",
-	"version": "1.0.0",
-	"description": "get-user-os is a lightweight, easy-to-use JavaScript library that provides a simple API to detect the operating system of a user. It's built with TypeScript and works seamlessly across different browsers.",
-	"main": "./build/src/index.js",
-	"type": "module",
-	"types": "./build/index.d.ts",
-	"scripts": {
-		"build": "tsc && swc src -d build --config-file .swcrc",
-		"publish": "npm publish",
-		"co": "sui-mono commit"
-	},
-	"keywords": [
-		"Operating System Detection",
-		"User Agent",
-		"JavaScript Library",
-		"TypeScript",
-		"Cross-Browser Compatibility"
-	],
-	"author": {
-		"name": "Raul Catalinas Esteban",
-		"email": "raulcatalinas@gmail.com",
-		"url": "https://github.com/RaulCatalinas"
-	},
-	"license": "MIT",
-	"devDependencies": {
-		"@biomejs/biome": "1.6.0",
-		"@s-ui/mono": "2.45.0",
-		"@swc/cli": "0.3.10",
-		"@swc/core": "1.4.6",
-		"markdownlint": "0.33.0",
-		"typescript": "5.4.2"
-	},
-	"files": ["build/**/*"],
-	"exports": {
-		".": "./build/src/index.js",
-		"./types": "./build/types"
-	},
-	"readme": "README.md",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/RaulCatalinas/GetUserOS"
-	},
-	"bugs": {
-		"url": "https://github.com/RaulCatalinas/GetUserOS/issues",
-		"email": "raulcatalinas@gmail.com"
-	}
+  "name": "get-user-os",
+  "version": "1.0.0",
+  "description": "get-user-os is a lightweight, easy-to-use JavaScript library that provides a simple API to detect the operating system of a user. It's built with TypeScript and works seamlessly across different browsers.",
+  "main": "./build/src/index.js",
+  "type": "module",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc && swc src -d build --config-file .swcrc",
+    "publish": "npm publish",
+    "co": "sui-mono commit",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "Operating System Detection",
+    "User Agent",
+    "JavaScript Library",
+    "TypeScript",
+    "Cross-Browser Compatibility"
+  ],
+  "author": {
+    "name": "Raul Catalinas Esteban",
+    "email": "raulcatalinas@gmail.com",
+    "url": "https://github.com/RaulCatalinas"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.0",
+    "@s-ui/mono": "2.45.0",
+    "@swc/cli": "0.3.10",
+    "@swc/core": "1.4.6",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "markdownlint": "0.33.0",
+    "prettier": "3.2.5",
+    "typescript": "5.4.2"
+  },
+  "files": [
+    "build/**/*"
+  ],
+  "exports": {
+    ".": "./build/src/index.js",
+    "./types": "./build/types"
+  },
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaulCatalinas/GetUserOS"
+  },
+  "bugs": {
+    "url": "https://github.com/RaulCatalinas/GetUserOS/issues",
+    "email": "raulcatalinas@gmail.com"
+  }
 }

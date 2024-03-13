@@ -1,15 +1,15 @@
-// Exports
-export { UserOS } from "./types/user-os"
-
 // Imports
-import { UserOS } from "./types/user-os"
+import { UserOS } from './types/user-os'
+
+// Exports
+export { UserOS } from './types/user-os'
 
 export function getUserOS(): UserOS {
-	if (navigator.userAgent.indexOf("Win") !== -1) return UserOS.Windows
-	if (navigator.userAgent.indexOf("iPhone OS") !== -1) return UserOS.iOS
-	if (navigator.userAgent.indexOf("X11") !== -1) return UserOS.Unix
-	if (navigator.userAgent.indexOf("Android") !== -1) return UserOS.Android
-	if (navigator.userAgent.indexOf("Linux") !== -1) return UserOS.Linux
+  if (navigator.userAgent.includes('Win')) return UserOS.Windows
+  if (navigator.userAgent.includes('iPhone OS')) return UserOS.iOS
+  if (navigator.userAgent.includes('X11')) return UserOS.Unix
+  if (navigator.userAgent.includes('Android')) return UserOS.Android
+  if (navigator.userAgent.includes('Linux')) return UserOS.Linux
 
-	return UserOS.Mac
+  return UserOS.Mac
 }
