@@ -6,6 +6,9 @@ get-user-os is a lightweight, easy-to-use JavaScript library that provides a sim
 
 ```bash
 npm install get-user-os
+yarn add get-user-os
+pnpm add get-user-os
+bun add get-user-os
 ```
 
 ## Use
@@ -16,13 +19,13 @@ import { getUserOS, UserOS } from "get-user-os"
 const userOS = getUserOS();
 
 if (userOS === UserOS.Windows) {
-  console.log("User is using Mac Windows")
+  console.log("The user is using Windows")
 } else if (userOS === UserOS.Mac) {
-  console.log("User is using Mac Mac")
+  console.log("The user is using Mac")
 } else if (userOS === UserOS.Linux) {
-  console.log("User is using Mac Linux")
+  console.log("The user is using Linux")
 } else {
-  console.log(`User is using Mac ${userOS}`)
+  console.log(`The user is using ${userOS}`)
 }
 ```
 
