@@ -30,7 +30,7 @@
     "@swc/core": "1.5.7",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "eslint": "^8.0.1",
-    "eslint-config-love": "47.0.0",
+    "eslint-config-love": "48.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
     "eslint-plugin-promise": "^6.0.0",
