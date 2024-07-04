@@ -28,7 +28,7 @@
     "@s-ui/mono": "2.45.0",
     "@swc/cli": "0.4.0",
     "@swc/core": "1.6.7",
-    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/eslint-plugin": "^7.15.0",
     "eslint": "^8.0.1",
     "eslint-config-love": "53.0.0",
     "eslint-plugin-import": "^2.25.2",
