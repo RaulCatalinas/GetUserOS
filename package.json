@@ -27,8 +27,8 @@
   "devDependencies": {
     "@s-ui/mono": "2.45.0",
     "@swc/cli": "0.4.0",
-    "@swc/core": "1.7.10",
-    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@swc/core": "1.7.14",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
     "eslint": "^9.9.0",
     "eslint-config-love": "62.0.0",
     "eslint-plugin-import": "^2.25.2",
