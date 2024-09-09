@@ -27,16 +27,16 @@
   "devDependencies": {
     "@s-ui/mono": "2.45.0",
     "@swc/cli": "0.4.0",
-    "@swc/core": "1.7.22",
-    "@typescript-eslint/eslint-plugin": "^8.4.0",
-    "eslint": "^9.9.1",
-    "eslint-config-love": "63.0.0",
-    "eslint-plugin-import": "^2.25.2",
+    "@swc/core": "1.7.24",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "eslint": "^9.10.0",
+    "eslint-config-love": "64.0.0",
+    "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-n": "^17.10.2",
     "eslint-plugin-promise": "^7.1.0",
     "markdownlint": "0.35.0",
     "prettier": "3.3.3",
-    "typescript": "5.5.4"
+    "typescript": "5.6.2"
   },
   "files": [
     "build/**/*"
